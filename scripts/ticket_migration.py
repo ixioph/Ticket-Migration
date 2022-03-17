@@ -1,11 +1,10 @@
 ''' ticket_migration.py '''
 import sys
 
-
+''' main function '''
 def main(args):
-  print(args)
+    print(args)
   
-  
+
 if __name__ == "__main__":
-  args = sys.argv
-  main(args)
+    main(sys.argv)
